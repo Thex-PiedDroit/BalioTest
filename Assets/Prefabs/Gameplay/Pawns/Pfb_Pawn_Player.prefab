@@ -94,6 +94,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_rigidbody: {fileID: 1129289041639473694}
   m_speed: 5
+  m_jumpForce: 8
+  m_longJumpForceAscending: 15
+  m_longJumpForceDescending: 18
+  m_groundCheckLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  m_groundCheckSphereRadius: 0.5
+  m_groundCheckDistanceTolerance: 0.1
 --- !u!54 &1129289041639473694 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 3498337256407682460, guid: 7144a75088c5d40419ff9a059418b02f, type: 3}
