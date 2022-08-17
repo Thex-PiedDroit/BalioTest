@@ -94,4 +94,9 @@ public class GameCamera : MonoBehaviour
 
 		return transform.position + (mouseRay.direction * multiplier);
 	}
+
+	public Vector3 TransformDirection(Vector3 direction)
+	{
+		return transform.TransformDirection(direction).x_z().normalized;
+	}
 }
