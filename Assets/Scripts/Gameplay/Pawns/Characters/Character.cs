@@ -2,11 +2,12 @@
 using UnityEngine;
 
 
-public class Character : BasePawn
+public class Character : BasePawn, IItemHolder
 {
-#region Fields (serialized)
+	#region Fields (serialized)
 
-
+	[SerializeField]
+	private WeaponsHandlingComponent m_weaponsHandlingComponent = null;
 
 	#endregion
 
@@ -17,5 +18,11 @@ public class Character : BasePawn
 	#endregion
 
 
-
+	void IItemHolder.GiveItem(IPickUpItem item)
+	{
+		if (item is BaseWeapon weapon && m_weaponsHandlingComponent != null)
+		{
+			m_weaponsHandlingComponent.TryEquipWeapon(weapon);
+		}
+	}
 }

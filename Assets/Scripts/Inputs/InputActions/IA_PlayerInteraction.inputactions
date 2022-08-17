@@ -1,0 +1,51 @@
+{
+    "name": "IA_PlayerInteraction",
+    "maps": [
+        {
+            "name": "Interaction",
+            "id": "2ce92ba2-e59f-485a-af0d-024e22427a21",
+            "actions": [
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "327cf17f-e07d-47ac-932e-6f661eb055a2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "da23b2c8-c57a-4205-bf5c-6a62a3b750cb",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "M&K",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "M&K",
+            "bindingGroup": "M&K",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

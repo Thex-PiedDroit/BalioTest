@@ -30,13 +30,13 @@ TagManager:
   - 
   - 
   - 
+  - WeaponAttack
   - 
   - 
+  - PickUpItem
+  - InteractableDetection
   - 
-  - 
-  - 
-  - 
-  - Pawn
+  - Character
   m_SortingLayers:
   - name: Default
     uniqueID: 0
