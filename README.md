@@ -4,7 +4,7 @@ Tech test for Balio Studio application
 I unfortunately ran out of time to implement everything request, namely enemies and UI, as well as the ability to reload the weapon (no ammo management present at all).
 
 
-Controls:
+## Controls:
 
 Movement: WASD (should be compatible with ZQSD on azerty layout)
 Jump: Space bar
@@ -12,7 +12,7 @@ Interact (pick up weapon): E
 Shoot: Left click
 
 
-Process:
+## Process:
 
 As i have been recently working on a similar project, on which i was very happy with the camera system and controls, i decided to redo this for the test, to showcase a game feel that i am proud of, and also to save some time on settings tweaking.
 
