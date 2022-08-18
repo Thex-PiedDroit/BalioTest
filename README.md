@@ -6,10 +6,10 @@ I unfortunately ran out of time to implement everything request, namely enemies 
 
 ## Controls:
 
-Movement: WASD (should be compatible with ZQSD on azerty layout)
-Jump: Space bar
-Interact (pick up weapon): E
-Shoot: Left click
+- **Movement:** WASD (should be compatible with ZQSD on azerty layout) 
+- **Jump:** Space bar 
+- **Interact (pick up weapon):** E 
+- **Shoot:** Left click 
 
 
 ## Process:
